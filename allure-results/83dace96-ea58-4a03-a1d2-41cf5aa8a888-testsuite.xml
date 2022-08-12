@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654512067835' stop='1654512067838'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1654512067835' status='passed' stop='1654512067836'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654512067836' status='broken' stop='1654512067837'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: pages.hehe.open is not a function</message>
+                <stack-trace>TypeError: pages.hehe.open is not a function
+                    at World.&lt;anonymous> (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\features\step-definitions\steps.js:12:25)
+                    at World.executeAsync (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at World.testFrameworkFnWrapper (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async wrapPromiseWithTimeout (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\time.js:67:12)
+                    at async Object.run (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:26)
+                    at async TestCaseRunner.invokeStep (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:233:26)
+                    at async D:\01.SOURCE_CODE\WebdriverIO_Cucumber\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:159:48</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654512067837' status='pending' stop='1654512067837'>
+            <name>When I login with foobar and barfoo</name>
+            <title>When I login with foobar and barfoo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654512067837' status='pending' stop='1654512067837'>
+            <name>Then I should see a flash message saying Your username is invalid!</name>
+            <title>Then I should see a flash message saying Your username is invalid!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654512067837' status='passed' stop='1654512067838'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
